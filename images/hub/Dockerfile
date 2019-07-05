@@ -6,5 +6,5 @@ USER root
 
 COPY sac-logo.png /usr/local/share/jupyterhub/static/images/sac-logo.png
 
-USER ${NB_USER}
-
+# Switch back to jovyan to avoid the container from running as root
+USER $NB_UID
