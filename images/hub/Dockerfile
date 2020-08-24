@@ -1,4 +1,4 @@
-FROM jupyterhub/k8s-hub:0.8.2
+FROM jupyterhub/k8s-hub:0.9.1
 
 LABEL maintainer="Luigi Di Fraia"
 
